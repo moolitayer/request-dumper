@@ -1,5 +1,5 @@
 # request-dumper
-Simple GO webserver dumping requests to STDOUT and response
+Simple GO webserver dumping requests to STDOUT and response writer
 
 ```
 CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main . # Compile with deps
